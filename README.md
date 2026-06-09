@@ -73,15 +73,15 @@ The application:
 
 
 **Sample Console Output**
+
 <img width="285" height="365" alt="Receipt output" src="https://github.com/user-attachments/assets/89f51e41-4464-4cd1-ac10-ef672d6230da" />
+
+
 
 **Sample JSON Output**
 
-{
-  "storeName": "ABC Supermarket",
-  "date": "08/06/2026",
-  "totalAmount": 250.0
-}
+<img width="1166" height="467" alt="receiptjson" src="https://github.com/user-attachments/assets/eb903d90-f57a-40ed-aad6-0d7413542420" />
+
 
 **Challenges Faced**
 - Installing and configuring Tesseract OCR
