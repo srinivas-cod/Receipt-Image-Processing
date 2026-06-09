@@ -33,65 +33,16 @@ Version 2
 
 **Technology Stack**
 
-**Technology       Purpose**
-Java 17         | Core Application Development
-Maven           | Dependency Management
-Tess4J          | Java Wrapper for Tesseract OCR
-Tesseract OCR   | Optical Character Recognition
-Jackson Databind| JSON Serialization
-IntelliJ IDEA   | Development Environment
+<img width="1705" height="267" alt="image" src="https://github.com/user-attachments/assets/6d765a1a-5b61-47f2-b620-5c77a800c5a7" />
+
 
 **Project Architecture**
 
-Receipt Image
-      │
-      ▼
-Tesseract OCR
-      │
-      ▼
-Raw Text Extraction
-      │
-      ▼
-Receipt Parser
-      │
-      ├── Extract Store Name
-      ├── Extract Date
-      └── Extract Total Amount
-      │
-      ▼
-Receipt Object
-      │
-      ├── Console Output
-      └── JSON Export
-              │
-              ▼
-         receipt.json
-
+<img width="406" height="619" alt="image" src="https://github.com/user-attachments/assets/d2449a60-82ba-4274-b4d8-0e04b6e7a0c3" />
 
 **Project Structure**
+<img width="499" height="581" alt="image" src="https://github.com/user-attachments/assets/4fd7c427-821c-4128-b035-2c2763fdeac7" />
 
-Image Receipt Processing
-│
-├── src
-│   └── main
-│       └── java
-│           └── org
-│               └── example
-│                   ├── Receipt.java
-│                   ├── ReceiptParser.java
-│                   ├── JSONExporter.java
-│                   ├── OCRTest.java
-│                   └── ReceiptOCRApp.java
-│
-├── receipts
-│   └── Sample Receipt Images
-│
-├── output
-│   └── receipt.json
-│
-├── pom.xml
-├── README.md
-└── .gitignore
 
 
 
@@ -118,19 +69,11 @@ The application:
 
 **Sample Input**
 
-ABC Supermarket
-Date: 08/06/2026
+<img width="401" height="520" alt="receipt" src="https://github.com/user-attachments/assets/36bb73af-9e02-4e9c-8112-6dfcf048216c" />
 
-Milk      120
-Bread      50
-Butter     80
-Total     250
 
 **Sample Console Output**
-Receipt Processed Successfully
-Store Name : ABC Supermarket
-Date       : 08/06/2026
-Total      : 250.0
+<img width="285" height="365" alt="Receipt output" src="https://github.com/user-attachments/assets/89f51e41-4464-4cd1-ac10-ef672d6230da" />
 
 **Sample JSON Output**
 
